@@ -1,10 +1,7 @@
-# Este incluye todos los archivos que debe ignorar git
-
-
-# No se sube a Git los modulos de node
+# Ignorar los módulos de Node.js (dependencias)
 node_modules/
 
-# No se suben los archivos de regsitro
+# Ignorar los archivos de registro
 *.log
 
 # Ignorar archivos de configuración que contengan secretos o información sensible
@@ -12,10 +9,12 @@ config.js
 
 # Ignorar archivos de registro de errores (ejemplo: logs de errores de Node.js)
 error.log
-# Ignorar archivos de respaldo
+
+# Ignorar archivos generados automáticamente (por ejemplo, archivos de compilación)
 dist/
 build/
-# Ignorar archivos de respaldo de editores de texto
+
+# Ignorar archivos temporales
 *.tmp
 
 # Ignorar archivos de entorno
