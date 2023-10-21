@@ -24,7 +24,7 @@ app.use(bodyParser.json({limit: '20mb'}));
 
 app.use((req, res, next) => {
 
-  const allowedOrigins = ['http://localhost:8080', 'https://pedrohernandez2707.github.io'];
+  const allowedOrigins = ['http://localhost:8080', 'https://pagina-sistema-nominas-mhc.onrender.com'];
   const origin = req.headers.origin;
 
   if (allowedOrigins.includes(origin)) {
