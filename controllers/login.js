@@ -7,11 +7,12 @@ const bcrypt = require('bcryptjs');
 
 const masterPool = new Pool({
   user: 'postgres',
-  host: 'containers-us-west-187.railway.app',
+  host: 'containers-us-west-47.railway.app',
   database: 'railway',
-  password: 'eM1b0LjN5WDqCk7M1l5j',
-  port: 7223,
+  password: 'Gu9BYmFIU7i1N47ZqdzJ',
+  port: 7092,
 });
+
 
 async function iniciarSesion(req, res) {
 

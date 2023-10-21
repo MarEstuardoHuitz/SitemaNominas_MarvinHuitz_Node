@@ -1,9 +1,10 @@
 const cloudinary = require('cloudinary').v2;
           
 cloudinary.config({ 
-  cloud_name: 'du3pg4202', 
-  api_key: '311772966242228', 
-  api_secret: 'keg4q77I3iG4FkWtPAz_kuh6Q5o' 
+  cloud_name: 'dhylz9qjm', 
+  api_key: '556455253193526', 
+  api_secret: '0-MyZW2yZkBYvVp5BUj7Eg5TfZY' 
 });
 
 module.exports = cloudinary;
+
